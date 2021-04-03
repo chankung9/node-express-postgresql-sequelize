@@ -2,4 +2,4 @@
 
 npm install
 npx sequelize db:migrate
-npm start
+npm run start:dev
