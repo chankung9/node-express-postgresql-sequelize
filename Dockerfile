@@ -1,11 +1,4 @@
-FROM node:10-slim
-
-RUN apt-get update \
-    && mkdir -p /usr/share/man/man1 \
-    && mkdir -p /usr/share/man/man7 \
-    && apt-get install -y --no-install-recommends postgresql-client libpq-dev \
-    && rm -rf /var/lib/apt/lists/* \
-    && apt-get clean
+FROM node:14-alpine
 
 WORKDIR /usr/src/app
 
