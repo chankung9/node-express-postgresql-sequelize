@@ -6,11 +6,13 @@ This source code is part of [Node.js, Express.js, Sequelize.js and PostgreSQL RE
 
 To run locally:
 
-* Make sure you have install and run PostgreSQL server
+Run `npm run dev:up`
+
+<!-- * Make sure you have install and run PostgreSQL server
 * Create database with the name same as in config file
 * Run `npm install` or `yarn install`
 * Run `sequelize db:migrate`
-* Run `nodemon` or `npm start`
+* Run `nodemon` or `npm start` -->
 
 <!--
     ?Create Table
@@ -20,3 +22,4 @@ To run locally:
     !2- Create Models file.js
     !3- Create comtrollers file.js create functions exp select data or date+where
 -->
+
